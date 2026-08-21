@@ -1,0 +1,356 @@
+{
+  "leadership": [
+    {
+      "name": "Sarah Galdi",
+      "role": "CEO",
+      "department": "Leadership",
+      "email": "scgaldi@unc.edu",
+      "linkedin": "https://www.linkedin.com/in/sarah-galdi-903062289/",
+      "bio": "Economics and Public Policy student passionate about economic democracy. Work experience at the NC Department of State Treasurer; Director of Programming for Carolina Women in Economics; Summer Undergrad Research Fellowship on member agency in cooperative financial institutions. From Apex, NC."
+    },
+    {
+      "name": "Calie Justus",
+      "role": "CFO",
+      "department": "Leadership",
+      "email": "cjjustus@unc.edu",
+      "linkedin": "https://www.linkedin.com/in/calie-justus/",
+      "bio": "Business Administration and Economics student. Seeing firsthand the importance of financial stability sparked her interest in building a financial institution that puts members over profit. Accounting and compliance experience at Irish Liquidations. From Trinity, NC."
+    },
+    {
+      "name": "Catherine Ding",
+      "role": "COO",
+      "department": "Leadership",
+      "email": "catding@unc.edu",
+      "linkedin": "https://www.linkedin.com/in/catherineding7/",
+      "bio": "Economics student involved in the Shuford Program in Entrepreneurship and Women in Consulting. Passionate about entrepreneurship and empowering women in business. Background in operations leadership and marketing. From Brookfield, Wisconsin."
+    },
+    {
+      "name": "Charles Zhang",
+      "role": "Chief Lending Officer",
+      "department": "Leadership",
+      "email": "cgavinz@unc.edu",
+      "linkedin": "https://www.linkedin.com/in/charleszhang32/",
+      "bio": "Economics and Statistics student pursuing a Credential in Quantitative Financial Economics. Led the efforts that raised $400k to start the credit union. Internship experience at PwC; Head of Finance for UNC Build the Hill. From San Francisco, CA."
+    },
+    {
+      "name": "Marco Zamudio",
+      "role": "Chief Compliance Officer",
+      "department": "Leadership",
+      "email": "mzamudio@unc.edu",
+      "linkedin": "https://www.linkedin.com/in/markzamudio1/",
+      "bio": "Economics and Public Policy student focused on International Development and reducing income inequality. Certified Credit Union Compliance Officer (CUCO) by America's Credit Unions. Researches distributional effects of power plant expansion in NC. From Davidson, NC."
+    },
+    {
+      "name": "Sahasra Boga",
+      "role": "CTO",
+      "department": "Leadership",
+      "email": "sahaboga@unc.edu",
+      "linkedin": "https://www.linkedin.com/in/sahasra-boga/",
+      "bio": "Data Science and Business Administration student. Commercial banking experience at Capital One. Career Advancement Manager in Women in Consulting at Carolina; Lead ULA for UNC's Intro to Data Science course. From Charlotte, NC."
+    },
+    {
+      "name": "Grace Bellofatto",
+      "role": "VP Member Services",
+      "department": "Leadership",
+      "email": "gbello@unc.edu",
+      "linkedin": "https://www.linkedin.com/in/gracebellofatto",
+      "bio": "Business Administration student. Works for 100 Women at UNC Kenan-Flagler and is involved in Alpha Kappa Psi. Passionate about operations, organizational efficiency, and mission-driven work. From Huntersville, NC."
+    },
+    {
+      "name": "Hasvi Muriki",
+      "role": "VP General Ledger",
+      "department": "Leadership",
+      "email": "hmuriki@unc.edu",
+      "linkedin": "https://www.linkedin.com/in/hasvi-muriki/",
+      "bio": "Economics and Data Science student in the Shuford Program in Entrepreneurship. As an international student, she experienced banking access gaps firsthand and joined to help close them. Also pursues high-altitude expeditions around the world. From Hyderabad, India."
+    },
+    {
+      "name": "Keya Mahajan",
+      "role": "VP Internal Controls",
+      "department": "Leadership",
+      "email": "keyam@unc.edu",
+      "linkedin": "https://www.linkedin.com/in/keya-mahajan/",
+      "bio": "Economics and Journalism student advocating for ethical and community-centered banking. Senior Writer and DEI Coordinator at the Daily Tar Heel; President of Asian American Journalists Association; freelancer at WUNC Public Radio. From Charlotte, NC."
+    },
+    {
+      "name": "Mohammad Qureshi",
+      "role": "VP Marketing",
+      "department": "Leadership",
+      "email": "maq@unc.edu",
+      "linkedin": "https://www.linkedin.com/in/mohammad-qureshi7/",
+      "bio": "Senior studying Economics with a minor in Data Science. Believes business can serve people when ownership, governance, and incentives are intentionally aligned with their needs. From Greensboro, NC."
+    },
+    {
+      "name": "Anashe Murphy",
+      "role": "VP HR",
+      "department": "Leadership",
+      "email": "akmurph@unc.edu",
+      "linkedin": "https://www.linkedin.com/in/anashemurphy/",
+      "bio": "Business Administration student with minors in Entrepreneurship and PPE. Part of UNC's Entrepreneurship Club, Finance Society, and Black Student Movement. Believes young adults deserve accessible financial education and services designed around their needs. From Apex, NC."
+    }
+  ],
+  "associates": [
+    {
+      "name": "Haydon Bode",
+      "role": "Associate",
+      "department": "Associate",
+      "email": "haybod@unc.edu",
+      "linkedin": "https://www.linkedin.com/in/haydon-bode/",
+      "bio": "Serves in the Operations Department of Carolina Students'."
+    },
+    {
+      "name": "Chai Duong",
+      "role": "Associate",
+      "department": "Associate",
+      "email": "chainy@unc.edu",
+      "linkedin": "https://www.linkedin.com/in/chainy-duong-708b08356/",
+      "bio": "Psychology and Sociology student passionate about expanding diversity within research spaces. Holds assistantships in the Bioinformatics Building and the Arnold Lab for Cognitive Psychology. From Greensboro, NC."
+    },
+    {
+      "name": "Saanvi Jayaprakash",
+      "role": "Associate",
+      "department": "Associate",
+      "email": "saanvij@unc.edu",
+      "linkedin": "https://www.linkedin.com/in/saanvi-jayaprakash-a18a5632a/",
+      "bio": "Economics and Data Science student passionate about community financial empowerment. Healthcare Research Sector Lead for a student-led impact investing fund; Learning Assistant for UNC's Economics Department. Multi-department internship at HomeTrust Bank. From Apex, NC."
+    },
+    {
+      "name": "Nishita Kashyap",
+      "role": "Associate",
+      "department": "Associate",
+      "email": "nishitak@unc.edu",
+      "linkedin": "https://www.linkedin.com/in/nishita-kashyap/",
+      "bio": "Business Administration and Data Science student passionate about driving impact in the UNC community. Former competitive Indian dancer; enjoys teaching music to special needs students. From Northern Virginia."
+    },
+    {
+      "name": "Rohit Madan",
+      "role": "Associate",
+      "department": "Associate",
+      "email": "rohitm@unc.edu",
+      "linkedin": "https://www.linkedin.com/in/rhtmadan/",
+      "bio": "Business Administration and Economics student with years of experience expanding financial literacy. From Cary, NC."
+    },
+    {
+      "name": "Derek Peng",
+      "role": "Associate",
+      "department": "Associate",
+      "email": "depeng@unc.edu",
+      "linkedin": "https://www.linkedin.com/in/derekepeng/",
+      "bio": "Mathematics major with a minor in Business Administration; Morehead-Cain Scholar. Experience at a Myanmar fintech, the UNC Math Help Center, and founding the Photography Club at Carolina. Parr Center Scholar and national FDIC Academic Challenge finalist. From Ames, Iowa."
+    },
+    {
+      "name": "Arivy Pereiro",
+      "role": "Associate",
+      "department": "Associate",
+      "email": "arilope@unc.edu",
+      "linkedin": "https://www.linkedin.com/in/arivy-pereiro/",
+      "bio": "Economics student passionate about informing economic decisions with quantitative reasoning. Work experience at Nike PivotPoint Analytics and Speak Out Sisterhood. Co-President of Carolina Women in Economics. From Miami, FL."
+    },
+    {
+      "name": "Anvi Pullalarevu",
+      "role": "Associate",
+      "department": "Associate",
+      "email": "anvip@unc.edu",
+      "linkedin": "https://www.linkedin.com/in/anvi-pullalarevu/",
+      "bio": "Contributes to operations and internal project management, helping keep teams aligned during the charter process."
+    }
+  ],
+  "board": [
+    {
+      "name": "Shiva Rajbhandari",
+      "role": "President",
+      "email": "shiva.rajbhandari@unc.edu",
+      "linkedin": "https://www.linkedin.com/in/shiva-rajbhandari/",
+      "bio": "Master of Public Policy student; Udall, Truman, and Morehead-Cain Scholar. Founded the CU Initiative at Carolina opposing big banks' fossil fuel financing. Design Thinking & Innovation Fellow at Innovate Carolina. From Boise, Idaho."
+    },
+    {
+      "name": "Sarah Galdi",
+      "role": "Vice President",
+      "email": "scgaldi@unc.edu",
+      "linkedin": "https://www.linkedin.com/in/sarah-galdi-903062289/",
+      "bio": "Economics and Public Policy student passionate about economic democracy. Work experience at the NC Department of State Treasurer; Director of Programming, Carolina Women in Economics. From Apex, NC."
+    },
+    {
+      "name": "Aadya Gattu",
+      "role": "Treasurer",
+      "email": "dgattu@unc.edu",
+      "linkedin": "https://www.linkedin.com/in/aadyagattu24/",
+      "bio": "Morehead-Cain Scholar studying Economics and Political Science. Research assistant in UNC Political Science; ULA in UNC Economics. Believes individual financial autonomy is essential to healthy democracies. From Warrington, PA."
+    },
+    {
+      "name": "Sunhee Frecker",
+      "role": "Secretary",
+      "email": "sfrecker@unc.edu",
+      "linkedin": "https://www.linkedin.com/in/sunhee-frecker/",
+      "bio": "Peace, War, and Defense and Economics student. Director of nonprofit MoMUNtum; President of the Carolina Economics Club; ULA for the Economics Department. Committed to financial and educational accessibility. From Naples, FL."
+    },
+    {
+      "name": "Catherine Ding",
+      "role": "Director",
+      "email": "catding@unc.edu",
+      "linkedin": "https://www.linkedin.com/in/catherineding7/",
+      "bio": "Economics student in the Shuford Program in Entrepreneurship and Women in Consulting. Passionate about entrepreneurship and empowering women in business. From Brookfield, Wisconsin."
+    },
+    {
+      "name": "Calie Justus",
+      "role": "Director",
+      "email": "cjjustus@unc.edu",
+      "linkedin": "https://www.linkedin.com/in/calie-justus/",
+      "bio": "Business Administration and Economics student. Passionate about building a financial institution that puts members over profit. Accounting and compliance experience at Irish Liquidations. From Trinity, NC."
+    },
+    {
+      "name": "William Walker III",
+      "role": "Director",
+      "email": "willwalk@unc.edu",
+      "linkedin": "https://www.linkedin.com/in/william-walker-iii/",
+      "bio": "Morehead-Cain Scholar studying Business Administration. Appointed by the Student Body President. Holds leadership positions across cultural, creative, and educational organizations. From Minneapolis, MN."
+    }
+  ],
+  "supervisory": [
+    {
+      "name": "Amy Gao",
+      "role": "Chair",
+      "email": "amygao@unc.edu",
+      "linkedin": "https://www.linkedin.com/in/amy-s-gao/",
+      "bio": "Economics student and NC Fellow. Founded the Bukedea Learning Lab in Uganda. Aspires to advance UN SDG goals as a children's rights advocate. From Denver, CO."
+    },
+    {
+      "name": "Ahmed Hamed",
+      "role": "Officer",
+      "email": "ahmedh@unc.edu",
+      "linkedin": "https://www.linkedin.com/in/ahmed-maged-hamed-9566b8214/",
+      "bio": "Master's student at UNC's Institute for Risk Management and Insurance Innovation. Research focuses on quantifying and mitigating financial risk for electric utilities. From Bethesda, MD."
+    },
+    {
+      "name": "Austin Lord",
+      "role": "Officer",
+      "email": "maclord@unc.edu",
+      "linkedin": "https://www.linkedin.com/in/austin-lord-6438a4247/",
+      "bio": "PhD student studying risk management and insurance. Research includes measuring credit delinquency and firm creditworthiness in response to natural hazards. From Nashville, NC."
+    },
+    {
+      "name": "Shiva Rajbhandari",
+      "role": "Officer",
+      "email": "shiva.rajbhandari@unc.edu",
+      "linkedin": "https://www.linkedin.com/in/shiva-rajbhandari/",
+      "bio": "Master of Public Policy student; Udall, Truman, and Morehead-Cain Scholar. Founded the CU Initiative at Carolina. Believes credit unions are key to creating an economy that works for working people. From Boise, Idaho."
+    }
+  ],
+  "advisors": [
+    {
+      "name": "Kishen Anand",
+      "role": "Board of Advisors",
+      "bio": "Chief Executive Officer, Georgetown University Alumni and Student Federal Credit Union"
+    },
+    {
+      "name": "Bernard Bell",
+      "role": "Board of Advisors",
+      "bio": "Executive Director, UNC Shuford Program in Entrepreneurship"
+    },
+    {
+      "name": "Creighton Blackwell",
+      "role": "Board of Advisors",
+      "bio": "Chief Community & Public Affairs Officer, Coastal Credit Union"
+    },
+    {
+      "name": "Stephen Breed",
+      "role": "Board of Advisors",
+      "bio": "Chief Executive Officer, Community Good Episcopal Federal Credit Union"
+    },
+    {
+      "name": "Jennifer Echtle",
+      "role": "Board of Advisors",
+      "bio": "Chief Audit Executive, Randolph Brooks Federal Credit Union"
+    },
+    {
+      "name": "Pamela Higgins",
+      "role": "Board of Advisors",
+      "bio": "President, University of Virginia Community Credit Union"
+    },
+    {
+      "name": "Jim Kitchen",
+      "role": "Board of Advisors",
+      "bio": "Professor of the Practice of Strategy and Entrepreneurship, Kenan-Flagler Business School"
+    },
+    {
+      "name": "EJ Kritz",
+      "role": "Board of Advisors",
+      "bio": "Chief Experience Officer, DBSI"
+    },
+    {
+      "name": "Oliver Li",
+      "role": "Board of Advisors",
+      "bio": "President, University of Pennsylvania Student Federal Credit Union"
+    },
+    {
+      "name": "Ashley Loftus",
+      "role": "Board of Advisors",
+      "bio": "Chief Financial Officer, Wasatch Peaks Federal Credit Union"
+    },
+    {
+      "name": "Erick Martinez",
+      "role": "Board of Advisors",
+      "bio": "Senior Vice President of Consumer Lending, Randolph Brooks Federal Credit Union"
+    },
+    {
+      "name": "Spence McArthur",
+      "role": "Board of Advisors",
+      "bio": "Executive Vice President, Wasatch Peaks Federal Credit Union"
+    },
+    {
+      "name": "Dezbee McDaniel",
+      "role": "Board of Advisors",
+      "bio": "Chief Executive Officer, CliniSpan Health"
+    },
+    {
+      "name": "Dr. Shimul Melwani",
+      "role": "Board of Advisors",
+      "bio": "Associate Dean of the Undergraduate Business Major, Kenan-Flagler Business School"
+    },
+    {
+      "name": "Jeffrey Mittelstadt",
+      "role": "Board of Advisors",
+      "bio": "Executive Director of the Ackerman Center, Kenan-Flagler Business School"
+    },
+    {
+      "name": "Brian Munsterteiger",
+      "role": "Board of Advisors",
+      "bio": "Senior Vice President of Central Operations, Randolph Brooks Federal Credit Union"
+    },
+    {
+      "name": "Dr. Christopher Roark",
+      "role": "Board of Advisors",
+      "bio": "Director of Undergraduate Studies, UNC-Chapel Hill Department of Economics"
+    },
+    {
+      "name": "Jeff Shaw",
+      "role": "Board of Advisors",
+      "bio": "President and Chief Executive Officer, Wasatch Peaks Federal Credit Union"
+    },
+    {
+      "name": "Doug Stan",
+      "role": "Board of Advisors",
+      "bio": "High School Economics Teacher, Boise School District"
+    },
+    {
+      "name": "Mark Steeley",
+      "role": "Board of Advisors",
+      "bio": "Director of Mortgage, America's Credit Unions"
+    },
+    {
+      "name": "Adam Versprille",
+      "role": "Board of Advisors",
+      "bio": "Head of Product, M-KOPA"
+    },
+    {
+      "name": "Rebecca Weaver",
+      "role": "Board of Advisors",
+      "bio": "Chief Technology Officer, Randolph Brooks Federal Credit Union"
+    },
+    {
+      "name": "Denise Wymore",
+      "role": "Board of Advisors",
+      "bio": "President, CU De Novo Collective"
+    }
+  ]
+}

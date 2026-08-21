@@ -1,0 +1,113 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 3.5rem;
+  color: var(--cscu-blue);
+  margin-bottom: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+.details h2, .formWrapper h2 {
+  font-size: 2rem;
+  color: var(--cscu-blue);
+  margin-bottom: 1.5rem;
+}
+
+.address, .phone {
+  font-size: 1.125rem;
+  color: var(--cscu-dark-grey);
+  margin-bottom: 0.5rem;
+}
+
+.socials {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.socials h3 {
+  font-size: 1.25rem;
+  color: var(--cscu-black);
+  margin-bottom: 1rem;
+}
+
+.socials a {
+  display: inline-block;
+  margin-right: 1.5rem;
+  color: var(--cscu-blue);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.mapPlaceholder {
+  height: 250px;
+  background-color: var(--cscu-light-grey);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--cscu-dark-grey);
+  border-radius: 4px;
+}
+
+.formWrapper {
+  background-color: var(--cscu-light-grey);
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.formGroup label {
+  font-weight: 600;
+  color: var(--cscu-black);
+}
+
+.formGroup input,
+.formGroup select,
+.formGroup textarea {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .formWrapper {
+    background-color: #222;
+  }
+  .formGroup label {
+    color: var(--cscu-white);
+  }
+  .formGroup input,
+  .formGroup select,
+  .formGroup textarea {
+    background-color: #333;
+    color: var(--cscu-white);
+    border-color: #444;
+  }
+}

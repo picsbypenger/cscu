@@ -1,0 +1,108 @@
+.footer {
+  background-color: var(--cscu-blue);
+  color: var(--cscu-white);
+  padding: 2rem 5vw 1.25rem;
+  margin-top: auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Top row: brand | nav | socials */
+.top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding-bottom: 1.5rem;
+}
+
+/* Brand: logo + compact contact info side by side */
+.brand {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.contactItem {
+  color: var(--cscu-white);
+  font-size: 0.75rem;
+  line-height: 1.4;
+  white-space: pre-wrap;
+}
+
+.contactItem:hover {
+  color: var(--cscu-white);
+  text-decoration: underline;
+}
+
+/* Vertical nav links */
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.nav a {
+  color: var(--cscu-white);
+  font-size: 0.75rem;
+}
+
+.nav a:hover {
+  color: var(--cscu-white);
+  text-decoration: underline;
+}
+
+/* Socials icons */
+.socials {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+
+.socials a {
+  color: var(--cscu-light-grey);
+  font-size: 0.875rem;
+}
+
+.socials a:hover {
+  color: var(--cscu-white);
+  text-decoration: underline;
+}
+
+/* Bottom bar */
+.bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.legal,
+.copyright {
+  font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width: 640px) {
+  .top {
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .nav {
+    gap: 0.4rem 1rem;
+  }
+}

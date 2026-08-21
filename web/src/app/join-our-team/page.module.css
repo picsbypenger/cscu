@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  text-align: center;
+  max-width: 800px;
+}
+
+.title {
+  font-size: 3.5rem;
+  color: var(--cscu-blue);
+  margin-bottom: 1rem;
+}
+
+.intro {
+  font-size: 1.25rem;
+  color: var(--cscu-dark-grey);
+  line-height: 1.6;
+}
+
+.quoteSection {
+  text-align: center;
+}
+
+.quote {
+  font-size: 2.5rem;
+  font-weight: 300;
+  font-style: italic;
+  color: var(--cscu-blue);
+  line-height: 1.3;
+  border-left: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footerCta {
+  background-color: var(--cscu-black);
+  color: var(--cscu-white);
+  text-align: center;
+}
+
+.footerCta h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.bodyText {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  color: var(--cscu-light-grey);
+}
+
+@media (max-width: 768px) {
+  .pillarsGrid {
+    grid-template-columns: 1fr;
+  }
+}

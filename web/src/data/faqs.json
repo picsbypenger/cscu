@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "question": "Is my money safe? Are deposits insured?",
+    "answer": "Carolina Students is currently in the chartering process. Once chartered and approved by regulators, deposits will be federally insured up to $250,000 by the National Credit Union Administration (NCUA), the same way bank deposits are insured by the FDIC. We will clearly announce when deposit accounts are open and formally insured.",
+    "category": "General",
+    "displayOrder": 1
+  },
+  {
+    "id": 2,
+    "question": "Is Carolina Students a real credit union yet, or still in progress?",
+    "answer": "We are currently operating as an initiative in the process of chartering as a full credit union (Carolina Students' Credit Union). Our charter application has been submitted to the NCCUD.",
+    "category": "Membership",
+    "displayOrder": 2
+  },
+  {
+    "id": 3,
+    "question": "Who can become a member?",
+    "answer": "Once chartered, membership will be open to all students at the University of North Carolina at Chapel Hill, as well as alumni, faculty, staff, and their immediate family members.",
+    "category": "Membership",
+    "displayOrder": 3
+  },
+  {
+    "id": 4,
+    "question": "How is a credit union different from a bank?",
+    "answer": "Unlike a bank, a credit union is a not-for-profit financial cooperative owned by its members. Instead of returning profits to outside shareholders, a credit union returns earnings to its members through lower interest rates on loans, higher yields on savings, and lower fees.",
+    "category": "General",
+    "displayOrder": 4
+  },
+  {
+    "id": 5,
+    "question": "Can international students open an account?",
+    "answer": "Yes. Once fully chartered, we are committed to providing access for international students, recognizing they often face barriers at traditional banks.",
+    "category": "Membership",
+    "displayOrder": 5
+  },
+  {
+    "id": 6,
+    "question": "How do I become a founding member, and what does that mean?",
+    "answer": "Becoming a founding member simply means registering your intent to join the credit union once our charter is granted. It helps us demonstrate demand to regulators. You can become a founding member by completing our interest survey linked throughout the site.",
+    "category": "Membership",
+    "displayOrder": 6
+  },
+  {
+    "id": 7,
+    "question": "How can I get involved as a mentor, sponsor, or partner?",
+    "answer": "We are actively looking for industry professionals, alumni, and sponsor credit unions. Please reach out to us directly through the Contact page.",
+    "category": "Partnerships",
+    "displayOrder": 7
+  }
+]

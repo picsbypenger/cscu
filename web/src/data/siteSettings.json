@@ -1,0 +1,18 @@
+{
+  "charterStatusBanner": "Charter application submitted to NCCUD.",
+  "foundingMemberSurveyUrl": "https://unc.az1.qualtrics.com/jfe/form/SV_eR1pDY24FGxgaNg",
+  "joinTeamApplicationUrl": "https://forms.gle/dummy",
+  "digitalBankingUrl": "",
+  "appointmentBookingUrl": "",
+  "contact": {
+    "address": "136 E Rosemary St, Suite 100, Office 114,\nChapel Hill, NC 27514",
+    "phone": "(971) 284-6259",
+    "social": {
+      "instagram": "https://www.instagram.com/carolinastudentsfinancial/",
+      "linkedin": "https://www.linkedin.com/company/carolina-students-financial/"
+    }
+  },
+  "legal": {
+    "line": "Carolina Students is an initiative of CU De Novo Collective Foundation, a registered 501(c)(3), EIN: 88-0851370."
+  }
+}

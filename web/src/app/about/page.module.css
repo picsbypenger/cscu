@@ -1,0 +1,219 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.introText {
+  max-width: 100%;
+}
+
+.introText h1 {
+  font-size: 3.5rem;
+  color: var(--cscu-blue);
+  margin-bottom: 2rem;
+}
+
+.bodyText {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: var(--cscu-dark-grey);
+}
+
+.missionVision {
+  background-color: var(--cscu-yellow);
+  color: var(--cscu-black);
+}
+
+.missionVision h2 {
+  color: var(--cscu-black);
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.missionStack {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  align-items: center;
+  text-align: center;
+  max-width: 700px;
+  margin: 2rem auto;
+}
+
+.missionItem {
+  width: 100%;
+}
+
+.missionVision .bodyText {
+  color: var(--cscu-black);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+.timelineSection h2 {
+  font-size: 2.5rem;
+  color: var(--cscu-blue);
+  margin-bottom: 2rem;
+}
+
+
+.teamSection {
+  background-color: var(--cscu-white);
+}
+
+.teamSection h2,
+.boardSection h2,
+.supervisorySection h2,
+.advisorsSection h2 {
+  font-size: 2.5rem;
+  color: var(--cscu-blue);
+  margin-bottom: 2rem;
+}
+
+.directory {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #ccc;
+}
+
+.directoryRow {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 2rem;
+  align-items: start;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.directoryLeft {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.directoryBio {
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: var(--cscu-dark-grey);
+  align-self: center;
+}
+
+.photoPlaceholder {
+  width: 91px;
+  height: 91px;
+  flex-shrink: 0;
+  background-color: var(--cscu-blue);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.initials {
+  color: var(--cscu-white);
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.teamName {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--cscu-black);
+  margin-bottom: 0.2rem;
+}
+
+.teamRole {
+  font-size: 0.8125rem;
+  color: var(--cscu-blue);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.contactLink {
+  font-size: 0.8125rem;
+  color: var(--cscu-dark-grey);
+  display: block;
+  margin-top: 0.25rem;
+}
+
+.contactLink:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .directoryRow {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+}
+
+.associatesGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.boardSection h2 {
+  font-size: 2rem;
+  color: var(--cscu-blue);
+}
+
+.simpleList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.simpleList li {
+  font-size: 1.125rem;
+  color: var(--cscu-dark-grey);
+}
+
+.advisorsSection h2 {
+  font-size: 2.5rem;
+  color: var(--cscu-blue);
+  margin-bottom: 2rem;
+}
+
+.advisorsGrid {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  font-size: 1.125rem;
+  color: var(--cscu-dark-grey);
+}
+
+.footerCta {
+  background-color: var(--cscu-black);
+  color: var(--cscu-white);
+  text-align: center;
+}
+
+.footerCta h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.demarcation {
+  border: none;
+  border-top: 1px solid #ccc;
+  width: 90%;
+  max-width: 1000px;
+  margin: 2rem auto;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}

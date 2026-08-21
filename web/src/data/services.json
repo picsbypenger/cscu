@@ -1,0 +1,37 @@
+[
+  {
+    "id": "checking-savings",
+    "name": "Checking + Savings",
+    "description": "No monthly fees, $5 minimum to open, debit card, ACH, ATM access, online/mobile banking, same-day account use.",
+    "status": "Available Now",
+    "displayOrder": 1
+  },
+  {
+    "id": "high-yield",
+    "name": "High-Yield Savings",
+    "description": "0.25% APY on first $500, 3.00% APY thereafter, no minimums or withdrawal limits.",
+    "status": "Coming Soon",
+    "displayOrder": 2
+  },
+  {
+    "id": "rso",
+    "name": "Student Organization Accounts",
+    "description": "Guided setup/compliance for RSOs needing formal accounts for Student Life & Leadership funding.",
+    "status": "Available Now",
+    "displayOrder": 3
+  },
+  {
+    "id": "loans",
+    "name": "Competitive Loan Products",
+    "description": "Credit-builder loans, unsecured internship/graduation loans, rental deposit assistance, credit card refinancing, emergency expense loans.",
+    "status": "Coming Soon",
+    "displayOrder": 4
+  },
+  {
+    "id": "literacy",
+    "name": "Financial Literacy & Guidance",
+    "description": "Workshops, 1:1 coaching, advising at every decision point, in partnership with the Carolina Financial Well-Being Center.",
+    "status": "Available Now",
+    "displayOrder": 5
+  }
+]
