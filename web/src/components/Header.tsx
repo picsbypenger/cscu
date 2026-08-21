@@ -23,6 +23,7 @@ export default async function Header() {
             <summary className={styles.menuIcon}>☰</summary>
             <MobileNav />
           </details>
+          <MobileNav />
         </div>
       </div>
     </header>

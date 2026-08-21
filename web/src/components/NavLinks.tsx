@@ -1,4 +1,5 @@
 "use client";
+import { useRef } from "react";
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -31,6 +32,13 @@ export function DesktopNav() {
 
 export function MobileNav() {
   const pathname = usePathname();
+  const detailsRef = useRef<HTMLDetailsElement>(null);
+
+  const handleLinkClick = () => {
+    if (detailsRef.current) {
+      detailsRef.current.removeAttribute("open");
+    }
+  };
   
   return (
     <nav className={styles.mobileNavItems}>
@@ -44,6 +52,21 @@ export function MobileNav() {
         </Link>
       ))}
     </nav>
+    <details className={styles.mobileMenu} ref={detailsRef}>
+      <summary className={styles.menuIcon}>☰</summary>
+      <nav className={styles.mobileNavItems}>
+        {navItems.map((item) => (
+          <Link 
+            key={item.href} 
+            href={item.href}
+            className={pathname === item.href ? styles.activeLink : undefined}
+            onClick={handleLinkClick}
+          >
+            {item.label}
+          </Link>
+        ))}
+      </nav>
+    </details>
   );
 }
 
