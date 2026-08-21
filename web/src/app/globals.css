@@ -130,6 +130,17 @@ h6 {
   background-color: #236a43;
 }
 
+.btn-yellow {
+  background-color: var(--cscu-yellow);
+  color: var(--cscu-black);
+}
+
+.btn-yellow:active,
+.btn-yellow:focus,
+.btn-yellow:hover {
+  background-color: #d18a06;
+}
+
 .title-backup {
   font-family: var(--font-open-sans), sans-serif;
 }
