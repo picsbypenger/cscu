@@ -3,6 +3,7 @@ import { Inter, Open_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { ViewportFix } from "@/components/ViewportFix";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -27,6 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${openSans.variable}`}>
       <body>
+        <ViewportFix />
         <Header />
         <main style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>{children}</main>
         <Footer />

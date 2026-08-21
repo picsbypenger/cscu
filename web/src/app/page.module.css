@@ -9,6 +9,7 @@
   align-items: center;
   min-height: 90vh; /* fallback */
   min-height: 90svh;
+  min-height: calc(var(--vh, 1vh) * 90);
   overflow: hidden;
 }
 
@@ -165,6 +166,7 @@
     align-items: center;
     min-height: 80vh; /* fallback */
     min-height: 80svh;
+    min-height: calc(var(--vh, 1vh) * 80);
     overflow: hidden;
   }
 
