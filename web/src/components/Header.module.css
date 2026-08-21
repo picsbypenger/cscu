@@ -142,3 +142,7 @@
     display: none;
   }
 }
+.activeLink {
+  font-weight: 700 !important;
+  color: var(--cscu-blue) !important;
+}
