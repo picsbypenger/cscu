@@ -12,7 +12,7 @@ export default async function Home() {
     <div className={styles.container}>
       {/* Hero Section */}
       <section className={styles.hero}>
-        <Image src="/images/well_blurred.png" alt="UNC Old Well" fill style={{ objectFit: 'cover', objectPosition: 'center' }} priority />
+        <Image src="/images/well_blurred.jpg" alt="UNC Old Well" fill style={{ objectFit: 'cover', objectPosition: 'center' }} priority />
         <div className={styles.heroOverlay}></div>
         <div className={styles.heroContent}>
           <h1 className={styles.heroTitle}>
