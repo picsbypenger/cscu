@@ -17,7 +17,7 @@ const openSans = Open_Sans({
 
 export const metadata: Metadata = {
   title: "Carolina Students",
-  description: "They closed their doors. We're opening ours.",
+  description: "Tar Heels Bank Here.",
 };
 
 export default function RootLayout({
