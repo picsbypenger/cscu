@@ -1,6 +1,27 @@
-import Link from 'next/link';
+import Image from 'next/image';
+import fs from 'fs';
+import path from 'path';
 import { getTeamInfo } from '@/lib/cms';
 import styles from './page.module.css';
+
+const Headshot = ({ name }: { name: string }) => {
+  const filename = name.toLowerCase().replace(/\s+/g, '_') + '.jpg';
+  const filePath = path.join(process.cwd(), 'public', 'heads', filename);
+  
+  if (fs.existsSync(filePath)) {
+    return (
+      <div className={styles.photoPlaceholder} style={{ background: 'none' }}>
+        <Image src={`/heads/${filename}`} alt={name} width={91} height={91} style={{ objectFit: 'cover', borderRadius: '50%', width: '100%', height: '100%' }} />
+      </div>
+    );
+  }
+  
+  return (
+    <div className={styles.photoPlaceholder}>
+      <span className={styles.initials}>{name.split(' ').map((n: string) => n[0]).join('').slice(0, 2)}</span>
+    </div>
+  );
+};
 
 export default async function About() {
   const team = await getTeamInfo();
@@ -70,9 +91,7 @@ export default async function About() {
             {[...team.leadership, ...team.associates].map((member, i) => (
               <div key={i} className={styles.directoryRow}>
                 <div className={styles.directoryLeft}>
-                  <div className={styles.photoPlaceholder}>
-                    <span className={styles.initials}>{member.name.split(' ').map((n: string) => n[0]).join('').slice(0, 2)}</span>
-                  </div>
+                  <Headshot name={member.name} />
                   <div>
                     <p className={styles.teamName}>{member.name}</p>
                     <p className={styles.teamRole}>{String(member.role)}</p>
@@ -105,9 +124,7 @@ export default async function About() {
             {team.board.map((member, i) => (
               <div key={i} className={styles.directoryRow}>
                 <div className={styles.directoryLeft}>
-                  <div className={styles.photoPlaceholder}>
-                    <span className={styles.initials}>{member.name.split(' ').map((n: string) => n[0]).join('').slice(0, 2)}</span>
-                  </div>
+                  <Headshot name={member.name} />
                   <div>
                     <p className={styles.teamName}>{member.name}</p>
                     <p className={styles.teamRole}>{String(member.role)}</p>
@@ -135,9 +152,7 @@ export default async function About() {
             {team.supervisory.map((member, i) => (
               <div key={i} className={styles.directoryRow}>
                 <div className={styles.directoryLeft}>
-                  <div className={styles.photoPlaceholder}>
-                    <span className={styles.initials}>{member.name.split(' ').map((n: string) => n[0]).join('').slice(0, 2)}</span>
-                  </div>
+                  <Headshot name={member.name} />
                   <div>
                     <p className={styles.teamName}>{member.name}</p>
                     <p className={styles.teamRole}>{String(member.role)}</p>
@@ -171,9 +186,7 @@ export default async function About() {
             {team.advisors.map((member, i) => (
               <div key={i} className={styles.directoryRow}>
                 <div className={styles.directoryLeft}>
-                  <div className={styles.photoPlaceholder}>
-                    <span className={styles.initials}>{member.name.split(' ').map((n: string) => n[0]).join('').slice(0, 2)}</span>
-                  </div>
+                  <Headshot name={member.name} />
                   <div>
                     <p className={styles.teamName}>{member.name}</p>
                     <p className={styles.teamRole}>{String(member.role)}</p>
