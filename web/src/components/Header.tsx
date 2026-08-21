@@ -19,10 +19,6 @@ export default async function Header() {
         <DesktopNav />
         <div className={styles.actions}>
           <a href={ctaUrl} target="_blank" rel="noopener noreferrer" className={styles.ctaButton}>{ctaText}</a>
-          <details className={styles.mobileMenu}>
-            <summary className={styles.menuIcon}>☰</summary>
-            <MobileNav />
-          </details>
           <MobileNav />
         </div>
       </div>

@@ -41,17 +41,6 @@ export function MobileNav() {
   };
   
   return (
-    <nav className={styles.mobileNavItems}>
-      {navItems.map((item) => (
-        <Link 
-          key={item.href} 
-          href={item.href}
-          className={pathname === item.href ? styles.activeLink : undefined}
-        >
-          {item.label}
-        </Link>
-      ))}
-    </nav>
     <details className={styles.mobileMenu} ref={detailsRef}>
       <summary className={styles.menuIcon}>☰</summary>
       <nav className={styles.mobileNavItems}>
