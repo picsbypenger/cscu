@@ -11,7 +11,7 @@ export default async function JoinOurTeam() {
       <section className={`${styles.hero} section`}>
         <h1 className={styles.title}>We don&apos;t just bank students. We build leaders.</h1>
         <p className={styles.intro}>
-          Joining Carolina Students means building something real from the ground up while making an immediate impact on campus.
+          Joining Carolina Students' means building something real from the ground up while making an immediate impact on campus.
         </p>
         <div style={{ marginTop: '2rem', width: '100%' }}>
           <Image src="/images/fullteam2.avif" alt="Carolina Students Team" width={800} height={450} style={{ objectFit: 'cover', borderRadius: '3px', width: '100%', height: 'auto' }} />
