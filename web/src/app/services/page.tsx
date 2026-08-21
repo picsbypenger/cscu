@@ -43,7 +43,6 @@ export default async function Services() {
       <section className={styles.ctaSection}>
         <div className="section">
           <h2>Be first in line.</h2>
-          <a href={ctaUrl} target="_blank" rel="noopener noreferrer" className="btn btn-white">{ctaText}</a>
           <a href={ctaUrl} target="_blank" rel="noopener noreferrer" className="btn btn-yellow">{ctaText}</a>
         </div>
       </section>
