@@ -18,12 +18,22 @@ export default async function JoinOurTeam() {
         </div>
       </section>
 
-      {/* CTA Footer */}
+      {/* CTA
       <section className={styles.footerCta}>
         <div className="section">
           <h2>We're recruiting. Help us to build the future.</h2>
           <a href={settings.joinTeamApplicationUrl} target="_blank" rel="noopener noreferrer" className="btn" style={{ backgroundColor: 'var(--cscu-white)', color: 'var(--cscu-black)' }}>
             Apply Now
+          </a>
+        </div>
+      </section> */}
+
+      {/* CTA */}
+      <section className={styles.footerCta}>
+        <div className="section">
+          <h2>Recruiting will reopen next spring.</h2>
+          <a href={settings.joinTeamApplicationUrl} target="_blank" rel="noopener noreferrer" className="btn" style={{ backgroundColor: 'var(--cscu-white)', color: 'var(--cscu-black)' }}>
+            Follow for Updates
           </a>
         </div>
       </section>
@@ -41,13 +51,13 @@ export default async function JoinOurTeam() {
 
             And this isn't just a semester-long commitment: after two semesters on the team, associates become eligible for advancement into leadership positions.<br /><br />
 
-            <u>Applications close at 11:59 p.m. on Friday, August 28th — don't miss your chance to be a founder.</u>
+            {/* <u>Applications close at 11:59 p.m. on Friday, August 28th — don't miss your chance to be a founder.</u> */}
           </p>
         </div>
       </section>
 
       {/* Job Description */}
-      <section className="section" style={{ backgroundColor: 'var(--cscu-light-grey)', marginBottom: '4rem' }}>
+      {/* <section className="section" style={{ backgroundColor: 'var(--cscu-light-grey)', marginBottom: '4rem' }}>
         <div style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'left' }}>
           <h2 style={{ fontSize: '2.5rem', color: 'var(--cscu-blue)', marginBottom: '1rem' }}>Role Description</h2>
           <div style={{ fontSize: '1.125rem', color: 'var(--cscu-dark-grey)', lineHeight: '1.6' }}>
@@ -97,7 +107,7 @@ export default async function JoinOurTeam() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }
